@@ -94,28 +94,28 @@ p.site-description {
   object-position: 100% 40%;
 }
 
-#post-4.twentyseventeen-panel header.entry-header {
+article#post-122.twentyseventeen-panel header.entry-header {
     width: 100% !important;
     float: none !important;
     text-align: center;
 }
 
-.home article#post-4 {
+.home article#post-122 {
   background-color: #333;
   color: white;
   background-image: url(https://2017.milwaukee.wordcamp.org/wp-content/uploads/2017/06/water-bg-light.jpg);
 }
 
-.home article#post-4 .entry-header {
+.home article#post-122 .entry-header {
   margin-bottom: 3em;
 }
 
-.home article#post-4 .entry-header h2 {
+.home article#post-122 .entry-header h2 {
   color: #22aad3;
   font-size: 30px;
 }
 
-article#post-4 .entry-content {
+article#post-122 .entry-content {
     width: 100% !important;
     max-width: 700px;
     text-align: center;
