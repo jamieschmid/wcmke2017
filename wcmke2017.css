@@ -115,6 +115,11 @@ article#post-122.twentyseventeen-panel header.entry-header {
   font-size: 30px;
 }
 
+.home article#post-122 .entry-content h4 {
+  font-weight: 400;
+  color: #fff;
+}
+
 article#post-122 .entry-content {
     width: 100% !important;
     max-width: 700px;
