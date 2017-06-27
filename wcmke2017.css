@@ -1,12 +1,10 @@
-/*
+.de/*
 *** Remote CSS for WordCamp Milwaukee 2017 web site
 *** WPMU install from WordCamp Central
 http://2017.milwaukee.wordcamp.org/
 You can add your own CSS here.
 Click the help icon above to learn more.
 */
-
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600');
 
 body {
   font-family: 'Raleway', arial, sans-serif;
@@ -105,7 +103,7 @@ p.site-description {
 .home article#post-4 {
   background-color: #333;
   color: white;
-  background-image: url(http://www.wcmke.dev/wp-content/uploads/2017/06/water-bg-light.jpg);
+  background-image: url(https://2017.milwaukee.wordcamp.org/wp-content/uploads/2017/06/water-bg-light.jpg);
 }
 
 .home article#post-4 .entry-header {
