@@ -1,0 +1,135 @@
+/*
+*** Remote CSS for WordCamp Milwaukee 2017 web site
+*** WPMU install from WordCamp Central
+http://2017.milwaukee.wordcamp.org/
+You can add your own CSS here.
+Click the help icon above to learn more.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600');
+
+body {
+  font-family: 'Raleway', arial, sans-serif;
+}
+p {
+  font-weight: 300;
+  line-height: 1.85em;
+}
+
+h3 {
+  color: #22aad3;
+  font-weight: 400;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+h4 {
+  padding-top: 10px;
+}
+
+.page .panel-content .entry-title {
+  letter-spacing: normal;
+}
+
+.home.wp-custom-logo.has-header-image .site-branding {
+  	position: absolute; 
+  	left: 0px; 
+    right: 0px;
+    top: 30px; 
+  	margin: auto auto 72px;
+}
+
+.wp-custom-logo.has-header-image .site-branding {
+  	bottom: initial;
+    margin: 0;
+    background-color: rgba(45, 45, 45, 0.9);
+    max-width: 362px;
+    text-align: center;
+    display: inline-block !important;
+    width: initial !important;
+  	padding: 15px 30px;
+}
+
+@media screen and (max-width: 767px) { 
+.wp-custom-logo.has-header-image .site-branding {
+    max-height: 270px;
+  }
+}
+
+.wp-custom-logo.has-header-image .site-branding .wrap {
+  padding: 0;
+}
+
+.home.wp-custom-logo.has-header-image .site-branding .wrap .site-branding-text {
+  display: block;
+}
+
+.wp-custom-logo.has-header-image .site-branding .wrap .site-branding-text {
+  display: none;
+}
+
+.wp-custom-logo.has-header-image .site-branding .wrap .custom-logo-link {
+  padding-right: 0;
+}
+
+.wp-custom-logo.has-header-image .site-branding .wrap .custom-logo-link img {
+    max-height: 198px;
+}
+
+.wp-custom-logo.has-header-image .site-branding .wrap h1.site-title {
+    display: none;
+}
+
+p.site-description {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: initial;
+  	padding-top: 0;
+  	opacity: 1;
+}
+
+#wp-custom-header img {
+  object-position: 100% 60%;
+}
+
+.home #wp-custom-header img {
+  object-position: 100% 40%;
+}
+
+#post-4.twentyseventeen-panel header.entry-header {
+    width: 100% !important;
+    float: none !important;
+    text-align: center;
+}
+
+.home article#post-4 {
+  background-color: #333;
+  color: white;
+  background-image: url(http://www.wcmke.dev/wp-content/uploads/2017/06/water-bg-light.jpg);
+}
+
+.home article#post-4 .entry-header {
+  margin-bottom: 3em;
+}
+
+.home article#post-4 .entry-header h2 {
+  color: #22aad3;
+  font-size: 30px;
+}
+
+article#post-4 .entry-content {
+    width: 100% !important;
+    max-width: 700px;
+    text-align: center;
+    margin: 0px auto;
+    float: none !important;
+}
+
+article#panel1 h2.entry-title {
+    font-size: 23px;
+  	color: #22aad3;
+}
+
+article#panel1 {
+  background-color: #fafafa;
+}
